@@ -1,0 +1,36 @@
+.container {
+    min-height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.container-title {
+    
+    text-shadow: 0.15em 0.15em rgba(255, 255, 255, 0.4);
+    font-size: 4rem;
+    
+}
+
+.container-phrase {
+    width: 100%;
+    max-width: 40em;
+    background-color: rgb(213, 255, 241);
+    padding: 2em 3em;
+    line-height: 1.4;
+    border-radius: 0.7em;
+    font-size: 20px;
+
+   
+
+}
+
+.container-btn {
+    padding: 0.8em 1.2em;
+    border-radius: 0.7em;
+    font-size: 1.2rem;
+}
